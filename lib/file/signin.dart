@@ -71,6 +71,31 @@ class _signingmailState extends State<signingmail> {
                   height: height * 0.03,
                 ),
                 Center(
+                  child: TextField(
+                    obscureText: false,
+                    decoration: InputDecoration(
+                      hintText: 'PASSWORD',
+
+                      hintStyle: TextStyle(
+                        color: Colors.black26,
+                      ),
+                      // filled: true,
+                      // fillColor:
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                        borderSide: BorderSide(color: Colors.black38, width: 2),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(8.0)),
+                        borderSide: BorderSide(color: Colors.black12),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: height * 0.03,
+                ),
+                Center(
                   child: FlatButton(
                     child: Text(
                       'LOGIN',
