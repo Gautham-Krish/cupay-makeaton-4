@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1091748499461",
+    "project_id": "cupay-2b08f",
+    "storage_bucket": "cupay-2b08f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091748499461:android:29bd1b0b8669d5cd7c4c6c",
+        "android_client_info": {
+          "package_name": "com.example.cupay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091748499461-0dvisdc01rt1pbm99hquoftnuc65ed3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0N9Sc_bKeSghTGqIsZf4JbTvj0H7EPGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091748499461-0dvisdc01rt1pbm99hquoftnuc65ed3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
