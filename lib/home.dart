@@ -1,3 +1,5 @@
+import 'package:cupay/addToWallet.dart';
+import 'package:cupay/withdraw.dart';
 import 'package:flutter/material.dart';
 
 class home extends StatefulWidget {
@@ -85,7 +87,7 @@ class _homeState extends State<home> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => home()),
+            MaterialPageRoute(builder: (context) => withdraw()),
           );
         },
       ),
@@ -123,7 +125,7 @@ class _homeState extends State<home> {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => home()),
+              MaterialPageRoute(builder: (context) => addwallet()),
             );
           },
         ),
